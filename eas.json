@@ -12,7 +12,10 @@
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "npm_config_user_agent": "pnpm"
+      }
     }
   },
   "submit": {
