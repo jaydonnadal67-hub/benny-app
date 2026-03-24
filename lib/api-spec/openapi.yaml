@@ -1,0 +1,78 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: benny
+    description: Benny the AI fitness coach
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+  /benny/ask:
+    post:
+      operationId: askBenny
+      tags: [benny]
+      summary: Ask Benny the AI coach
+      description: Get a response from Benny the sarcastic dachshund fitness coach
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/BennyRequest"
+      responses:
+        "200":
+          description: Benny's response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BennyResponse"
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+    BennyRequest:
+      type: object
+      properties:
+        prompt:
+          type: string
+        type:
+          type: string
+          enum: [checkin, workout, nutrition, greeting]
+      required:
+        - prompt
+        - type
+    BennyResponse:
+      type: object
+      properties:
+        message:
+          type: string
+        mood:
+          type: string
+          enum: [good, bad, neutral, food, checkin]
+      required:
+        - message
+        - mood

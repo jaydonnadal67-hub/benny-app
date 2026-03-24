@@ -1,0 +1,17 @@
+Please add the following features to LiftLog. Implement all of them fully:
+1. Barcode Scanner + Food Database
+Add a barcode scanner to the nutrition screen using expo-barcode-scanner. When a barcode is scanned, look up the product in the Open Food Facts API (https://world.openfoodfacts.org/api/v0/product/{barcode}.json) and auto-fill the meal form with the product name, calories, protein, carbs, and fat. Also add a text search bar that searches the Open Food Facts API by food name so users can find foods without a barcode. Benny should react to whatever food was scanned or searched with a sarcastic 1-liner.
+2. Rest Timer
+After every set is logged, show a rest timer that counts down from 90 seconds. Display it as a prominent countdown on screen. Benny should say something impatient and funny if the user lets it run all the way down without starting the next set. Allow the user to skip or reset the timer. Timer should be dismissible.
+3. Benny's Mood Indicator
+On the home screen, add a visual mood indicator for Benny that changes based on performance. Use these states: "zoomies" (4+ workouts this week), "impressed" (2-3 workouts), "neutral" (1 workout), "disappointed" (0 workouts and it's past Wednesday), "devastated" (streak broken). Show a different Benny expression/emoji and color for each mood state. The mood should visually change the Benny bubble on the home screen.
+6. Body Weight Logger
+Add a body weight logging section accessible from the home screen or a new tab. User logs their weight each morning in lbs. Show a line graph of weight over time using react-native-chart-kit or similar. Benny comments on the trend — dropping weight = grudgingly impressed, gaining = concerned, no logs in 3+ days = personally offended.
+7. Streak Tracker
+Track consecutive days the user has logged a workout OR hit their protein goal. Show the current streak prominently on the home screen. Benny reacts at milestones: 3 days, 7 days, 14 days, 30 days. If the streak is broken Benny is dramatically devastated. Store streak data in AsyncStorage.
+8. Benny's Weekly Report
+Every Sunday, generate a full weekly report from Benny. Include: total workouts completed, total volume lifted, cardio sessions, average calories, protein consistency, water intake average, any PRs hit, job search updates from check-ins, and a weekly letter grade (A through F). Benny delivers this as a long dramatic message in his sarcastic dachshund voice. Make it feel like a report card. Show it as a full screen modal that appears automatically on Sundays or can be accessed from the home screen any time.
+9. Share Your Benny Verdict
+After every workout reaction screen, add a "Share Benny's Verdict" button. Use expo-sharing to generate a shareable image or text card containing: the workout name, key stats (sets, volume, avg RPE), and Benny's full verdict message. Format it nicely so it looks good when sent to friends.
+10. More Benny Opening Messages
+Greatly expand the variety of Benny's home screen greeting messages. He should reference: the day of the week, time of day, current streak, recent workout performance, body weight trend if logged, job search status from last check-in, calories logged today, and recent PRs. Make him feel like he genuinely knows everything about the user's day. Generate at least 20 different personality-driven message styles so it never feels repetitive — sometimes motivational, sometimes sarcastic, sometimes genuinely sweet but hiding it, sometimes dramatic, sometimes acting like a tired coach who has seen it all.

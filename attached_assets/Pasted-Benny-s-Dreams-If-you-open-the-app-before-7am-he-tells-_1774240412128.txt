@@ -1,0 +1,22 @@
+Benny's Dreams
+If you open the app before 7am he tells you about a dream he had. Always fitness related and always bizarre. "I dreamed you finally hit 225 on bench but it was made of cheese. I don't know what it means. Go lift."
+Benny Has a Nemesis
+A fictional cat named Gerald who represents laziness and bad diet. Benny brings him up whenever you slack. "Gerald would love this rest day. Are you Gerald? I didn't think so."
+
+📱 Benny Features
+Benny Notifications
+Push notifications from Benny throughout the day. Not generic reminders — actual Benny messages. "It's 2pm and you haven't eaten protein yet. Gerald is laughing." or "You said you'd work out today. The clock is ticking. I'm watching."
+Benny's Leaderboard Commentary
+If you add the friend leaderboard later, Benny gives live commentary on standings. Trash talks your friends by name. Celebrates when you're winning. Panics when you're losing.
+Benny's Predictions
+Before every workout based on your check-in scores he makes a specific prediction. "Energy 2/5, sleep 3/5 — I'm predicting you drop weight on squats but surprise yourself on bench. Prove me wrong. Or right. Whatever."
+Benny's Superstitions
+He develops random superstitions based on patterns he notices in your data. "Every time you eat Chipotle you have a great workout the next day. I don't make the rules. Get the burrito bowl."
+
+💙 Benny Gets Deep
+Benny Checks On You
+If your stress scores have been consistently high for several days Benny drops the sarcasm completely and just genuinely checks in. No jokes. Just asks if you're okay. One of those moments that makes the app feel human.
+Benny's Pep Talks
+A dedicated button you can press any time called "I need a pep talk." Benny delivers a fully personalized motivational speech based on everything he knows about you — your job search, your fitness goals, your recent performance. Ends with something genuinely moving then immediately ruins it with a dog joke.
+Benny Remembers Your Why
+During onboarding you tell Benny WHY you're doing this — what your goal is, what it means to you. He brings it up at exactly the right moments. When you're about to give up on a set. When your weight stalls. When you have a bad week. He reminds you why you started.
