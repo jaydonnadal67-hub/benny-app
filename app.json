@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "3b4e7281-e078-40fb-8466-7db41ae863c8"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.bennyapplift.workspace",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}
