@@ -15,7 +15,8 @@
       "autoIncrement": true,
       "ios": {
         "resourceClass": "m-medium"
-      }
+      },
+      "buildArtifactPaths": ["artifacts/mobile"]
     }
   }
 }
